@@ -16,20 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
               Effective service requires seeing the world through the eyes of
               those you aim to help."`
         },
-        {
-            imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951709/vrinda_ccafmg.jpg',
-            name: 'Dr. Vrinda Tokekar',
-            post:'Director DAVV',
-            quote: `"Service often comes with challenges. Develop perseverance and
-              resilience to overcome obstacles and achieve meaningful outcomes."`
-        },
-        {
-            imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951711/sanjiv_csqyzm.jpg',
-            name: 'Dr. Sanjiv Tokekar',
-            post:'Former  Director DAVV',
-            quote: `"Service often comes with challenges. Develop perseverance and
-              resilience to overcome obstacles and achieve meaningful outcomes."`
-        },
+        
         {
            imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951708/Sachin_figsnp.jpg',
             name: ' Dr.Sachin Sharma',
@@ -48,8 +35,22 @@ document.addEventListener('DOMContentLoaded', ()=> {
               skills that will benefit you throughout life."`
         },
         {
+          imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951709/vrinda_ccafmg.jpg',
+          name: 'Dr. Vrinda Tokekar',
+          post:'Director DAVV',
+          quote: `"Service often comes with challenges. Develop perseverance and
+            resilience to overcome obstacles and achieve meaningful outcomes."`
+      },
+      {
+          imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951711/sanjiv_csqyzm.jpg',
+          name: 'Dr. Sanjiv Tokekar',
+          post:'Former  Director DAVV',
+          quote: `"Service often comes with challenges. Develop perseverance and
+            resilience to overcome obstacles and achieve meaningful outcomes."`
+      },
+        {
             imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951712/tapesh_valklp.jpg',
-            name: 'Tapesh Sir',
+            name: 'Tapesh Sarsodia',
             post:'Programm incharge',
             quote: `"Regularly reflect on your service experiences. Use these
           reflections to identify areas for improvement and to better
