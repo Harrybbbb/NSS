@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="assets/logo.png" />
+        <div class="logo-name">
+          <p>NATIONAL SERVICE SCHEME</p>
+          <p class="collage">IET-DAVV,Indore</p>
+        </div>
+      </div>
+      <div class="sec-logo">
+        <div class="azadi">
+          <img
+            src="https://res.cloudinary.com/dxea0kghs/image/upload/v1726972416/amrit_ngbvv6.png"
+          />
+        </div>
+        <div class="swach">
+          <img
+            src="https://res.cloudinary.com/dxea0kghs/image/upload/v1726972416/swach_ufidul.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="links" id="Link">
+      <a href="index.html">Home</a>
+      <a href="event.html">Events</a>
+      <a href="team.html" class="active">Our Team</a>
+      <a href="mentors.html">Our Mentors</a>
+      <a href="gallery.html">Our Gallery</a>
+      <a href="connect.html">Connect</a>
+    </div>
+
+    <div class="team-heading">
+      <p class="contact-text">WHO WE <span class="are">ARE</span></p>
+    </div>
+    <div class="team">
+      <div class="animate__animated animate__fadeInLeft team-content">
+        <p>
+          At the National Service Scheme (NSS), we are dedicated to fostering a
+          spirit of social responsibility and community service among students
+          across India. Established in 1969, the NSS is a vibrant community of
+          young volunteers committed to making a positive impact in society.We
+          envision a society where individuals are actively engaged in service,
+          fostering a culture of empathy, solidarity, and sustainable
+          development.
+        </p>
+      </div>
+    </div>
+
+    <div class="team-name">
+      <p class="contact-text">Programm Incharge</p>
+    </div>
+
+    <div class="team-container" id="Incharge"></div>
+
+    <div class="team-name">
+      <p class="contact-text">Senior Core Team</p>
+    </div>
+
+    <div class="team-container" id="SeniorTeam"></div>
+
+    <div class="team-name">
+      <p class="effort-text">Core Team</p>
+    </div>
+
+    <div class="team-container" id="CoreTeam"></div>
+
+    <hr />
+
+    <footer class="footer">
+      <div class="right">
+        <p>&copy; 2024 All right reserved</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="developer.html">Our Developers</a>
+        <a href="#">Downloads</a>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const members = [
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951712/tapesh_valklp.jpg",
+            name: "Tapesh Sarsodia",
+          },
+        ];
+
+        const menmbersContainer = document.getElementById("Incharge");
+
+        members.forEach((member) => {
+          const memberCard = `
+        <div data-aos="zoom-in" data-aos-duration="500" class="team-member">
+            <div class="memberimg">
+                <img src="${member.imgSrc}"class="team-img">
+            </div>
+            <div class="memberinfo">
+                <p class="membername">${member.name}</p>
+            </div>
+        </div>
+        `;
+          menmbersContainer.innerHTML += memberCard;
+        });
+
+        AOS.init();
+      });
+
+      // BELOW ARE SENIOR
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const members = [
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951858/jashpalsingh_f3dc7o.jpg",
+            name: "Jashpal Singh Solanki",
+            post: "Headboy",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951869/yashasvirathore_zvjaga.jpg",
+            name: "Yashasvi Rathore",
+            post: "Headgirl",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951865/sakshijain_v2i3hs.jpg",
+            name: "Sakshi Jain",
+            post: "Headgirl",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951853/akankshadhanwal_s8qswv.jpg",
+            name: "Akanksha Dhanwal",
+            post: "Operational Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951855/bharatendugupta_cp9heo.jpg",
+            name: "Bharatendu Gupta",
+            post: "Campaining Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951859/jhankarjhade_jktwgh.jpg",
+            name: "Jhankar Jhade",
+            post: "Design Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951852/abhinavsingh_epff2o.jpg",
+            name: "Abhinav Singh",
+            post: "PR and outreach Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951856/gajendrasingh_m6mdx3.jpg",
+            name: "Gajendra Singh",
+            post: "Event Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951852/aarnaladdha_j19yku.jpg",
+            name: "Aarna Laddha",
+            post: "Social-media Head",
+          },
+        ];
+
+        const menmbersContainer = document.getElementById("SeniorTeam");
+
+        members.forEach((member) => {
+          const memberCard = `
+        <div data-aos="zoom-in" data-aos-duration="500" class="team-member">
+            <div class="memberimg">
+                <img src="${member.imgSrc}" class="team-img">
+            </div>
+            <div class="memberinfo">
+                <p class="membername">${member.name}</p>
+                
+            </div>
+        </div>
+        `;
+          menmbersContainer.innerHTML += memberCard;
+        });
+
+        AOS.init();
+      });
+
+      // BELOW ARE ACTIVE
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const members = [
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951864/rajan_eek9dm.jpg",
+            name: "Rajan Kumar",
+            post: "Headboy",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951857/ganeshnawani_slhpca.jpg",
+            name: "Ganesh Nawani",
+            post: "Headboy",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951864/rekhapanika_vpvx2y.jpg",
+            name: "Rekha Panika",
+            post: "Headgirl",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951854/amitkumar_g3ffct.jpg",
+            name: "Amit Kumar Shivhare",
+            post: "PR and outreach Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951852/adityadabi_ixgulz.jpg",
+            name: "Aditya Dabi",
+            post: "PR and outreach Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951866/sansidhisukla_aifhpq.jpg",
+            name: "Sansidhi Sukla",
+            post: "Production Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951861/mayurbakode_erctmw.jpg",
+            name: "Mayur Bakode",
+            post: "Production Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951853/akshatpouranik_vwesua.jpg",
+            name: "Akshat Pouranik",
+            post: "Social-media Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951861/muskanahriwar_erezua.jpg",
+            name: "Muskan Ahirwar",
+            post: "Art and cultural Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951859/juhinerware_gqlm5t.jpg",
+            name: "Juhi Neware",
+            post: "Art and cultural Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951852/adityashrinet_acqoka.jpg",
+            name: "Aditya Shirinet",
+            post: "Operation and event Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951867/shloksharma_nxsds3.jpg",
+            name: "Shlok Sharma",
+            post: "Operation and event Head",
+          },
+          {
+            imgSrc:
+              "https://res.cloudinary.com/dxea0kghs/image/upload/v1726951863/priyalsahu_qbrvot.jpg",
+            name: "Priyal Sahu",
+            post: "Design Head",
+          },
+        ];
+
+        const menmbersContainer = document.getElementById("CoreTeam");
+
+        members.forEach((member) => {
+          const memberCard = `
+        <div data-aos="zoom-in" data-aos-duration="500" class="team-member">
+            <div class="memberimg">
+                <img src="${member.imgSrc}" class="team-img">
+            </div>
+            <div class="memberinfo">
+                <p class="membername">${member.name}</p>
+                <p class="memberpost">${member.post}</p>
+            </div>
+        </div>
+        `;
+          menmbersContainer.innerHTML += memberCard;
+        });
+
+        AOS.init();
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const members = document.querySelectorAll(".team-member");
+        const images = document.querySelectorAll(".team-img");
+
+        members.forEach((member) => {
+          member.addEventListener("mouseenter", () => {
+            images.forEach((img) => {
+              if (!member.contains(img)) {
+                img.style.filter = "grayscale(100%)";
+              } else {
+                img.style.filter = "none";
+              }
+            });
+          });
+
+          member.addEventListener("mouseleave", () => {
+            images.forEach((img) => {
+              img.style.filter = "grayscale(100%)";
+            });
+          });
+        });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/team.js"></script>
+  </body>
+</html>
