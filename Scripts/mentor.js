@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
       },
         {
             imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951712/tapesh_valklp.jpg',
-            name: 'Tapesh Sir',
+            name: 'Tapesh Sarsodia',
             post:'Programm incharge',
             quote: `"Regularly reflect on your service experiences. Use these
           reflections to identify areas for improvement and to better
