@@ -766,6 +766,7 @@ a{
   width: 100%;
 }
 .mentor-card{
+  padding: 20px;
   background-color: white;
   width: 400px;
   border-radius: 15px;
@@ -1326,18 +1327,6 @@ a{
     width: 100px;
   }
 
-  .mentor-info {
-    margin-top: 1em;
-    font-family: var(--fonts);
-  }
-
-  .mentor-info h2 {
-    color: #000000;
-  }
-
-  .mentor-info p {
-    color: #3f3f3f;
-  }
   .mentor-heading p {
     font-size: 40px;
   }

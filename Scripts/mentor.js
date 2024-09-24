@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
               skills that will benefit you throughout life."`
         },
         {
-          imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951709/vrinda_ccafmg.jpg',
+          imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1727153218/vrinda_kvldtk.png',
           name: 'Dr. Vrinda Tokekar',
           post:'Director DAVV',
           quote: `"Service often comes with challenges. Develop perseverance and
