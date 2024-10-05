@@ -62,7 +62,7 @@ eventsContainer.innerHTML = eventCardsHTML;
 
 const swiper = new Swiper(".EffortSwiper", {
     slidesPerView: 1,
-    spaceBetween: 5,
+    spaceBetween: 10,
     speed:2000,
     autoplay: {
       delay: 0,
@@ -83,11 +83,11 @@ const swiper = new Swiper(".EffortSwiper", {
       },
       768: {
         slidesPerView: 2,
-        spaceBetween: 40,
+        spaceBetween: 0,
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 50,
+        spaceBetween: 10,
       },
     },
    
