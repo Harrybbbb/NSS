@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', ()=> {
     const mentors = [
         {
-            imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1726951708/renu_bd2gdc.jpg',
-            name: 'Renu Jain',
+            imgSrc: 'https://res.cloudinary.com/dxea0kghs/image/upload/v1728661794/1000138476-removebg-preview_lhhuee.png',
+            name: 'Rakesh Singhai',
             post:'Vice Chancellor',
             quote: `"Lead by example in your actions, not just words. Demonstrating
               integrity, responsibility, and commitment inspires others to
